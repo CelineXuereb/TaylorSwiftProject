@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image:  linear-gradient(red,blue,yellow),
+    url(D:\Data\Desktop\Celine\Level 5 year 1\Semester 2\TaylorSwiftProject\Images\TaylorSwift img\To use\TaylorSwiftlogo.jpg);
+height: 100vh;
+width: 100%;
+    
+}
