@@ -1,3 +1,8 @@
+*
+body{
+    font-family: 'Abril Fatface', cursive;
+    background: #837d7c;}
+
 #navbar ul { 
     margin: 0; 
     padding: 5px; 
@@ -5,38 +10,28 @@
     text-align: center; 
     background-color: #000; 
     } 
- 
+
 #navbar ul li {  
     display: inline; 
     } 
- 
+
 #navbar ul li a { 
     text-decoration: none; 
     padding: .2em 1em; 
     color: #fff; 
     background-color: #000; 
     } 
- 
+
 #navbar ul li a:hover { 
     color: #000; 
     background-color: #fff; 
     } 
 
+
 *{
     padding 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body{
-    font-family: 'Abril Fatface', cursive;
-    background: #C1E3ED;
-}
-
-p {
-    margin: 20px 0 50px 0;
-    line-height: 25px;
-    font-family: 'Nixie One', cursive;
 }
 
 .container{
@@ -68,7 +63,7 @@ p {
 }
 
 .option img{
-    width: 500px;
+    width: 700px;
     height: 500px;
     padding: 10px;
 }
@@ -78,7 +73,7 @@ p {
 }
 
 h3{
-    color:#92b1ba;
+    color:#848080;
 margin: 20px 0 20px 0
 font-size:25px;
 }
@@ -94,6 +89,7 @@ h4 {
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
+    font-family: 'Nixie One', cursive;
 }
 
 h5{
@@ -105,7 +101,7 @@ label,
 .color span {
     width: 25px;
     height: 25px;
-    background-color:#C1E3ED;
+    background-color:#ededed;
     border-radius:50%;
     margin: 30px 10px 30px 0px;
 }
@@ -117,8 +113,8 @@ label,
 .add label,
 .add span{
     background: none;
-    border: 1px solid #C1E3ED;
-    color:#C1E3ED;
+    border: 1px solid #ededed;
+    color:#ededed;
     text-align:25px;
     line-height: 25px;
     text-align: center
@@ -135,7 +131,7 @@ button{
     padding: 10px;
     border: none;
     outline: none;
-    background-color: #92b1ba;
+    background-color: #837d7c;
     color: white;
     margin-top: 20%;
     border-radius: 30%;

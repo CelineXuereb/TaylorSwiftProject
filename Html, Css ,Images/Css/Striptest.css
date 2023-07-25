@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+img {
+float: left;
+width: 372px;
+height: 509px;
+}
+
+.text-box{
+color: #fff;
+}
+
+.text-box h2{
+    font-size: 42px;
+}
+
+.text-box p{
+    font-size: 16px;
+}

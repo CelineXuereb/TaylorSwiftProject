@@ -1,20 +1,60 @@
+
+body{
+    font-family: 'Abril Fatface', cursive;
+    background: #C1E3ED;
+}
+
+p {
+    margin: 20px 0 50px 0;
+    line-height: 25px;
+    font-family: 'Nixie One', cursive;
+}
+
+#navbar ul { 
+    margin: 0; 
+    padding: 5px; 
+    list-style-type: none; 
+    text-align: center; 
+    background-color: #000; 
+    } 
+
+#navbar ul li {  
+    display: inline; 
+    } 
+
+#navbar ul li a { 
+    text-decoration: none; 
+    padding: .2em 1em; 
+    color: #fff; 
+    background-color: #000; 
+    } 
+
+#navbar ul li a:hover { 
+    color: #000; 
+    background-color: #fff; 
+    } 
+
+
 *{
     padding 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background: #753F47;
+
+*{
+    padding 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 .container{
     max-width: 75%;
     margin: auto;
     height: 90vh;
     margin-top: 5%;
     background-color: white;
-    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
+    box-shadow: 5px 5px 10px 3px rgba(32, 52, 34, 0);
 
 }
 .left, .right{
@@ -37,7 +77,7 @@ body{
 }
 
 .option img{
-    width: 500px;
+    width: 651px;
     height: 500px;
     padding: 10px;
 }
@@ -47,7 +87,7 @@ body{
 }
 
 h3{
-    color:#753F47;
+    color:#C1E3ED;
 margin: 20px 0 20px 0
 font-size:25px;
 }
@@ -74,7 +114,7 @@ label,
 .color span {
     width: 25px;
     height: 25px;
-    background-color: wheat;
+    background-color:#1c5048;
     border-radius:50%;
     margin: 30px 10px 30px 0px;
 }
@@ -86,8 +126,8 @@ label,
 .add label,
 .add span{
     background: none;
-    border: 1px solid #753F47;
-    color:#753F47;
+    border: 1px solid #C1E3ED;
+    color:#C1E3ED;
     text-align:25px;
     line-height: 25px;
     text-align: center
@@ -104,7 +144,7 @@ button{
     padding: 10px;
     border: none;
     outline: none;
-    background-color: #753F47;
+    background-color: #C1E3ED;
     color: white;
     margin-top: 20%;
     border-radius: 30%;

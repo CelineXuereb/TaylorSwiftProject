@@ -4,23 +4,24 @@
     list-style-type: none; 
     text-align: center; 
     background-color: #000; 
-    } 
- 
+} 
+
 #navbar ul li {  
     display: inline; 
-    } 
- 
+} 
+
 #navbar ul li a { 
     text-decoration: none; 
     padding: .2em 1em; 
     color: #fff; 
     background-color: #000; 
-    } 
- 
+} 
+
 #navbar ul li a:hover { 
     color: #000; 
     background-color: #fff; 
-    } 
+} 
+
 
 *{
     padding 0;
@@ -30,7 +31,7 @@
 
 body{
     font-family: 'Abril Fatface', cursive;
-    background: #C1E3ED;
+    background: #C7AFC8;
 }
 
 p {
@@ -46,7 +47,7 @@ p {
     margin-top: 5%;
     background-color: white;
     box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
-
+    
 }
 .left, .right{
     width: 50%;
@@ -68,7 +69,7 @@ p {
 }
 
 .option img{
-    width: 500px;
+    width: 550px;
     height: 500px;
     padding: 10px;
 }
@@ -78,9 +79,9 @@ p {
 }
 
 h3{
-    color:#92b1ba;
-margin: 20px 0 20px 0
-font-size:25px;
+    color:#C7AFC8;
+    margin: 20px 0 20px 0
+    font-size:25px;
 }
 
 h5,p,small {
@@ -91,10 +92,6 @@ h4 {
     color:red;
 }
 
-p {
-    margin: 20px 0 50px 0;
-    line-height: 25px;
-}
 
 h5{
     font-size:15px;
@@ -105,7 +102,7 @@ label,
 .color span {
     width: 25px;
     height: 25px;
-    background-color:#C1E3ED;
+    background-color: wheat;
     border-radius:50%;
     margin: 30px 10px 30px 0px;
 }
@@ -117,8 +114,8 @@ label,
 .add label,
 .add span{
     background: none;
-    border: 1px solid #C1E3ED;
-    color:#C1E3ED;
+    border: 1px solid #C7AFC8;
+    color:#C7AFC8;
     text-align:25px;
     line-height: 25px;
     text-align: center
@@ -135,7 +132,7 @@ button{
     padding: 10px;
     border: none;
     outline: none;
-    background-color: #92b1ba;
+    background-color: #C7AFC8;
     color: white;
     margin-top: 20%;
     border-radius: 30%;

@@ -5,58 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb32">
+    <!--Custom typeface Abril Fatface for headers and subheaders-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    
+    <!--Custom typeface Nixie One for paragraph-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="Css/Purple hoodie.css">
 </head>
-
-       <div id="navbar"> 
-         <ul> 
-           <li><a href="Home page.html">Home</a></li> 
-           <li><a href="About.html">About</a></li> 
-           <li><a href="Merchandise.html">Merchandise</a></li> 
-           <li><a href="Profile.html">Profile</a></li> 
-           <li><a href="Contact%20Form.html">Contact Form</a></li> 
-           <li><a href="Project.html?">Login</a><li>
-           </ul> 
-<!--Image Product Preview-->
-        <div class="container flex">
-            <div class="Left">
+<!--Navgation bar-->
+<div id="navbar"> 
+    <ul> 
+        <li><a href="Index Home.html">Home</a></li> 
+        <li><a href="About.html">About</a></li> 
+        <li><a href="Store.html">Store</a></li> 
+        <li><a href="ContactForm.html">Contact Form</a></li> 
+        
+    </ul> 
+    <!--Image Product Preview-->
+    <div class="container flex">
+        <div class="Left">
             <div class="main_image">
             </div>
             <div class="option flex">
-            <img src="Pictures/Merch/purple-removebg-preview.png" onclick="img('Pictures/Merch/purple-removebg-preview.jpg')">
-        <div>
-        </div>
-        <div class="right">
-            <!--Product's Description-->
-<h3>Purple Hoodie</h3>
-<h4><small>£</small>60.00</h4>
-<p>TAYLOR SWIFT LAVENDER PULLOVER.</p>
-<h5>TAYLOR SWIFT THE ERAS TOUR CROPPED LAVENDER PULLOVER.</h5>
-<div class="color flex">
-    <span></span>
-<!--Product Attributes-->
-</div>
-<h5>Quantity</h5>
-<div class="add flex1">
-    <span>-</span>
-    <label>1</label>
-    <span>+</span>
-    <text-align: center>
-</div>
-<button>Add to Bag</button>
-    </div>
-     </div>
-</section>
-<script>
-    function img(anything) {
-document.querySelector('.slide').src = anything;
-    }
-
-    function change(change) {
-        const line = document,querySelector('.home');
-        line.style.background = change
-    }
-</script>
-</body>
-</html>
+                <img src="Images/Product images/Purple Jumper.png" onclick="img('Images/Product images/Purple Jumper.png')">
+                <div>
+                </div>
+                <div class="right">
+                    <!--Product's Description-->
+                    <h3>Purple Hoodie</h3>
+                    <h4><small>£</small>60.00</h4>
+                    <p>TAYLOR SWIFT LAVENDER PULLOVER.</p>
+                    <h5>Colour</h5>
+                    <div class="color flex">
+                        <span></span>
+                        <!--Product Attributes-->
+                    </div>
+                    <h5>Quantity</h5>
+                    <div class="add flex1">
+                        <span>-</span>
+                        <label>1</label>
+                        <span>+</span>
+                        <text-align: center>
+                    </div>
+                    <button>Add to Bag</button>
+                </div>
+            </div>
+        </section>
+        <!--Product Details funtion-->
+        <script src="Javascript/Product Details function.js"></script>
+    </body>
+    </html>

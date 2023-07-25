@@ -32,8 +32,14 @@
 body{
     font-family: 'Abril Fatface', cursive;
     background: #837d7c;
-
 }
+
+p {
+    margin: 20px 0 50px 0;
+    line-height: 25px;
+    font-family: 'Nixie One', cursive;
+}
+
 .container{
     max-width: 75%;
     margin: auto;

@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface', cursive;   
 }
+
  nav{
     display: flex;
     width: 100%;
@@ -12,31 +13,21 @@
     padding: 5px 0;
     background-color: #453653;
  }
-
-.carousel-caption{
-   bottom: 220px;
-}
-
-.carousel-caption h5{
-font-size: 45px;
-text-transform: capitalize;
-letter-spacing: normal;
-margin-top: 25px;
-}
-
-.carousel-caption p{
-   width: 60%;
-   margin: auto;
-   font-size: 18px;
-   line-height: 1.9;
-}
-
-.carousel-caption a{
-   text-transform: capitalize;
-   text-decoration: none;
-   padding: 10px 30px;
-   display: inline-block;
+ .text-box{
    color: #fff;
+   position:absolute;
+   bottom: 8%;
+}
+
+.text-box p{
+   font-size: 100%;
+   font-weight: 1200;
+}
+
+.text-box h5{
+   font-size: 190px;
+   line-height: 160px;
+   margin-left: -10px;
 }
 
 #navbar ul { 
@@ -78,8 +69,9 @@ nav ul li a:hover:after{
 }
 
 .logo{
-   width: 60px;
+   width: 80px;
    cursor: pointer;
+   margin-right: auto;
 }
 
 .bag-heart {
@@ -89,4 +81,144 @@ nav ul li a:hover:after{
 
 body{
   font-family: 'Abril Fatface', cursive;
+   background-color: #C7AFC8;
 }
+
+
+.carousel-item{
+   height: 580px;
+}
+
+.carousel-imgs{
+   height: fit-content;
+   object-fit: cover;
+   filter: brightness(0.6);
+}
+
+.carousel-caption h5{
+font-size: 70px;
+text-transform: capitalize;
+letter-spacing: normal;
+}
+
+.carousel-caption p{
+   width: 60%;
+   margin: auto;
+   font-size: 20px;
+   line-height: 1.9;
+
+}
+
+.carousel-caption a{
+   text-transform: capitalize;
+   text-decoration: none;
+   padding: 10px 30px;
+   display: inline-block;
+   color: #fff;
+   margin-top: 15px;
+}
+
+
+/*____mission____*/
+
+.mission{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 100px;
+   float: left; 
+}
+
+h1{
+   font-size: 36px;
+   font-weight: 600;
+   color: #fff;
+}
+
+p{
+ font-family: 'Courier New', Courier, monospace;
+ color: #fff;
+ font-size: 14px;
+ font-weight: 300;
+ line-height: 22px;
+ padding: 10px;
+ text-align: center;
+
+}
+
+.wrapper{
+   margin: 150px auto;
+   width: 70%;
+}
+
+.card-header{
+   background-color: #453653;
+}
+
+section{
+   min-height: 100vh;
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.title{
+   font-size: 3rem;
+   margin: 2rem 0rem;
+}
+
+.faq{
+   max-width: 700px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid #fff;
+   cursor: pointer;
+}
+
+.question{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.question h3{
+   font-size: 1.8rem;
+}
+
+.answer{
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 1.4s ease;
+}
+
+.answer p{
+   padding-top: 1rem;
+   line-height: 1.6;
+   font-size: 1.4rem;
+}
+
+.faq.active .answer{
+   max-height: 300px;
+   animation: fade 1s ease-in-out;
+}
+
+.faq.active svg{
+   transform: rotate(180deg);
+}
+
+svg{
+   transition: transform 0.5s ease-in;
+}
+
+@keyframes fade{
+   from{
+      opacity: 0;
+      transform: translate(-10px);
+   }
+   to{
+      opacity: 1;
+      transform: translateY(0px);
+   }
+   }

@@ -1,66 +1,88 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Abril Fatface', cursive;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Abril Fatface', cursive;   
 }
- nav{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 5px 0;
-    background-color: #453653;
- }
 
- 
+nav{
+   display: flex;
+   width: 100%;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 5px 0;
+   background-color: #453653;
+}
+
 #navbar ul { 
-	margin: 0; 
-	padding: 5px; 
-	text-align: center; 
-	background-color: #000; 
-	} 
-   
+  margin: 0; 
+  padding: 5px; 
+  list-style: none;
+  text-align: center; 
+  background-color: #000; 
+  } 
+  
 
 nav ul li{
-   display: inline-block;
-   list-style: none;
-   margin: 10px 30px;
-   margin: center;
-}
-nav ul li a{
-   color: #C7AFC8;
-   text-decoration: none;
-}
-
-nav ul li{
-   display: inline-block;
-   list-style: none;
-   margin: 10px 30px;
-   margin: center;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+  text-align: right;
 }
 
 nav ul li a{
-   color: #C7AFC8;
-   text-decoration: none;
+  color: #C7AFC8;
+  text-decoration: none;
+  position: relative;
 }
 
-#navbar ul li a:hover{
-color: #453653;
-background-color: #fff;
+nav ul li a::after{
+  content: ' ';
+  width: 50%;
+  height: 3px;
+  position: absolute;
+bottom: -5px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #C7AFC8;
+transition: width 0.3s ;
 }
 
+nav ul li a:hover:after{
+  width: 50%;
+}
 
 .logo{
-   width: 60px;
-   cursor: pointer;
+  width: 80px;
+  cursor: pointer;
+  margin-right: auto;
 }
 
 .bag-heart {
-  width: 25px;
-  cursor: pointer;
+ width: 25px;
+ cursor: pointer;
 }
 
 body{
-  font-family: 'Abril Fatface', cursive;
+ font-family: 'Abril Fatface', cursive;
+  background-color: #C7AFC8;
 }
+
+
+img {
+   float: left;
+   width: 372px;
+   height: 509px;
+   }
+
+   p{
+      font-family: 'Courier New', Courier, monospace;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+      padding: 10px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+   }
