@@ -18,11 +18,21 @@ body{
     width: 70%;
 }
 
-img {
-float: left;
-width: 372px;
-height: 509px;
+.card img{
+    float: left;
+    width: 20%;
+    height: 20%;
 }
+
+.carousel-inner h1{
+    align-items: center;
+    }
+    
+    .carousel-inner img{
+       object-fit: fill;
+    filter: brightness(0.6);
+    }
+
 
 .text-box{
 color: #fff;
@@ -35,3 +45,4 @@ color: #fff;
 .text-box p{
     font-size: 16px;
 }
+

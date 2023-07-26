@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Abril Fatface', cursive;   
+    transition: .2s linear;
 }
 
  nav{
@@ -118,21 +119,45 @@ letter-spacing: normal;
    margin-top: 15px;
 }
 
-
 /*____mission____*/
+
+.wrapper{
+   margin: 150px auto;
+   width: 70%;
+}
+
+.card-header{
+   background-color: #453653;
+   height: 500px;
+}
+
+.carousel-inner h1{
+align-items: center;
+}
+
+.carousel-inner img{
+   object-fit: fill;
+filter: brightness(0.6);
+}
 
 .mission{
    width: 80%;
    margin: auto;
    text-align: center;
    padding-top: 100px;
-   float: left; 
+}
+
+.mission img{
+   float: left;
+   width: 20%;
+   height: 20%;
 }
 
 h1{
    font-size: 36px;
    font-weight: 600;
    color: #fff;
+   align-items: center;
 }
 
 p{
@@ -143,17 +168,8 @@ p{
  line-height: 22px;
  padding: 10px;
  text-align: center;
-
 }
 
-.wrapper{
-   margin: 150px auto;
-   width: 70%;
-}
-
-.card-header{
-   background-color: #453653;
-}
 
 section{
    min-height: 100vh;
@@ -221,4 +237,12 @@ svg{
       opacity: 1;
       transform: translateY(0px);
    }
+   }
+
+   .container.video-list video{
+width: 100%;
+object-fit: cover;
+height: 105px;
+padding: 10px;
+cursor: pointer;
    }
