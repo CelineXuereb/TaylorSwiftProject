@@ -1,38 +1,73 @@
-*
-body{
-    font-family: 'Abril Fatface', cursive;
-    background: #837d7c;}
 
-#navbar ul { 
-    margin: 0; 
-    padding: 5px; 
-    list-style-type: none; 
-    text-align: center; 
-    background-color: #000; 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Abril Fatface', cursive;   
+        transition: .2s linear;
+    }
+    
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5px 0;
+        background-color: #453653;
+    }
+    
+    #navbar ul { 
+        margin: 0; 
+        padding: 5px; 
+        list-style: none;
+        text-align: center; 
+        background-color: #000; 
     } 
-
-#navbar ul li {  
-    display: inline; 
-    } 
-
-#navbar ul li a { 
-    text-decoration: none; 
-    padding: .2em 1em; 
-    color: #fff; 
-    background-color: #000; 
-    } 
-
-#navbar ul li a:hover { 
-    color: #000; 
-    background-color: #fff; 
-    } 
-
-
-*{
-    padding 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+    
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 30px;
+        text-align: right;
+    }
+    
+    nav ul li a{
+        color: #C7AFC8;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    nav ul li a::after{
+        content: ' ';
+        width: 0;
+        height: 3px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #C7AFC8;
+        transition: width 0.3s ;
+    }
+    
+    nav ul li a:hover:after{
+        width: 50%;
+    }
+    
+    .logo{
+        width: 80px;
+        cursor: pointer;
+        margin-right: auto;
+    }
+    
+    .bag-heart {
+        width: 25px;
+        cursor: pointer;
+    }
+    
+    body{
+        font-family: 'Abril Fatface', cursive;
+        background: #837d7c;}
 
 .container{
     max-width: 75%;

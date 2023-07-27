@@ -5,14 +5,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: blueviolet;
-}
-
+.card-header{
+    background-color: #453653;
+    height: 500px;
+ }
 .wrapper{
     margin: 150px auto;
     width: 70%;

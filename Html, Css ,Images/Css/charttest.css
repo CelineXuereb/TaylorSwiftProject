@@ -26,9 +26,6 @@ p {
     margin-bottom: 15px;
 }
 
-.section-header-span{
-color: aqua;
-}
 .underline{
     border: 1px solid#fff;
     width: 10rem;
@@ -69,6 +66,14 @@ padding:10px;
     display: block;
     position: relative;
     opacity: 0.7;
+    transition: opacity 0.20s, transform 0.35s;
+    transform: translate3d(-15px, 0px, 0px);
+    backface-visibility: hidden;
+}
+
+.video-gallery .gallery-item:hover img{
+    opacity: .5;
+    transform: translate3d(0px, 0px, 0px);
 }
 
 .gallery-item-caption {
