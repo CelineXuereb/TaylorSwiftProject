@@ -1,0 +1,16 @@
+
+
+
+#pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a{ background-color: #000043;	color: #ffffff;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items.pojo-a11y-links{ border-color: #000043;}
+body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width: 1px !important;	outline-color: #FF0000 !important;}
+#pojo-a11y-toolbar{ top: 100px !important;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay{ background-color: #000043;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay p.pojo-a11y-toolbar-title{ color: #ffffff;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a.active{ background-color: #4054b2;	color: #ffffff;}
+@media (max-width: 767px) { #pojo-a11y-toolbar { top: 50px !important; } }</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+

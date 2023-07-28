@@ -80,6 +80,30 @@ nav ul li a:hover:after{
   width: 25px;
   cursor: pointer;
 }
+
+.iconsContainer .icons{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   grid-gap: -1rem 1rem;}
+
+   .iconsContainer .icons.bi{
+      cursor: pointer;
+      font-size:40px;
+      padding: 1.5rem 2rem;
+      border-radius: 50%;
+   }
+
+.social-icon{
+   color: #C1E3ED;
+}
+
+.cart-icon{
+   color: #fff;
+   width: 25px;
+}
+
+
+
 /*End Navigation Bar*/
 
 /*Backgound color and Typeface*/
