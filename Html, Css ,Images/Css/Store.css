@@ -117,3 +117,9 @@ body h5{
     background-color: #4536537a;
 }
 
+.btn-primary {
+    background-color: #453653;
+    --bs-btn-hover-bg: #453653;
+    --bs-btn-hover-border-color: #453653;
+    --bs-btn-border-color: #453653;
+}

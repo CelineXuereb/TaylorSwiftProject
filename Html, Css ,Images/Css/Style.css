@@ -77,8 +77,8 @@ nav ul li a:hover:after{
 }
 
 .bag-heart {
-  width: 25px;
-  cursor: pointer;
+width: 25px;
+cursor: pointer;
 }
 
 .iconsContainer .icons{
@@ -101,7 +101,6 @@ nav ul li a:hover:after{
    color: #fff;
    width: 25px;
 }
-
 
 
 /*End Navigation Bar*/
@@ -268,11 +267,6 @@ transform: translate3d(0px, 0px, 0px);
 
 /*____mission card container____*/
 
-.card-header-faq{
-   background-color: #C1E3ED;
-   height: 600px;
-}
-
 .wrapper{
    margin: 150px auto;
    width: 70%;
@@ -370,7 +364,7 @@ section{
    align-items: center;
 }
 
-/*video gallery*/
+/*video gallery section*/
 .section header{
    margin-top: 80%;
    color: #C1E3ED;
@@ -381,7 +375,7 @@ section{
    letter-spacing: 10rem;
    margin-bottom: 15px;
 }
-
+/*video gallery underline*/
 .underline{
    border: 1px solid#fff;
    width: 10rem;
@@ -389,7 +383,7 @@ section{
    align-items: center;
    margin-bottom: 30px;
 }
-
+/*video gallery*/
 .video-gallery{
 height: 100%;
 max-width: 100%;
@@ -432,11 +426,12 @@ padding:10px;
    transform: translate3d(0px, 0px, 0px);
 }
 
+/*video gallery caption*/
 .gallery-item-caption {
    color: #453653;
    padding: 1rem;
    text-transform:capitalize;
-   font-size: 1.25em;
+   font-size: 1.08em;
    text-align: left;
    position: absolute;
    top:0;
@@ -472,6 +467,7 @@ transform: translate3d(-100px, 0px, 0px);
 transform: translate3d(0px, 0px, 0px);
 }
 
+/*video gallery paragraph*/
 .video-gallery .gallery-item p{
 letter-spacing: 1px;
 font-size: 68%;
@@ -479,6 +475,8 @@ padding: 1em 0;
 opacity: 0;
 transition: opacity 0.35, transform 0.35s;
 transform: translate3d(20%, 0px, 0px);
+color: #453653;
+font-weight: 100;
 }
 
 .video-gallery .gallery-item:hover p{
@@ -524,6 +522,11 @@ align-items: center;
    font-size: 1.4rem;
 }
 
+.card-header-faq{
+   background-color: #C1E3ED;
+   height: 600px;
+}
+/*Start FAQ'S*/
 .faq.active .answer{
    max-height: 300px;
    animation: fade 1s ease-in-out;
@@ -536,7 +539,18 @@ align-items: center;
 svg{
    transition: transform 0.5s ease-in;
 }
-/*End of faqs*/
+/*End of FAQ's */
+
+.Tourdates{
+   background-color: #453653;
+   height: 900px;
+   width: 220%;
+}
+
+.Tourdates.img{
+   align-items: center;
+
+}
 
 
 

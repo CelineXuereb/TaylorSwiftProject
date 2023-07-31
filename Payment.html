@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link href="    https://icons.getbootstrap.com/icons/check-circle-fill/" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="Css/Payment.css"> 
+    <link rel="stylesheet" href="Payment.css"> 
 </head>
 <body>
 
@@ -85,13 +85,41 @@
             </div>
     
         </div>
+<div class="container2">
+<div class="popup">
+    <img src="Html, Css ,Images/Icons img/icon2.jpg" alt="check">
+<h2>Thank You!</h2>
+<p> Your details has been successfully submitted. Thanks!</p>
+<button type="button" class="btn">OK</button>
 
-        <a href="Index Home.html" class="btn btn-primary">Proceed to Checkout</a>
-        <a href="Index Home.html" class="btn btn-primary">View Product</a>
+<div class="container2">
+    <button type="submit" class="btn" onclick="openPopup()">OK</button>
+    <div class="popup" id="popup">
+        <img src="Html, Css ,Images/Icons img/icon2.jpg" alt="check">
+    <h2>Thank You!</h2>
+    <p> Your details has been successfully submitted. Thanks!</p>
+    <button type="submit" class="btn" onclick="closePopup()">OK</button>
 
+
+
+<a href="Index.html" class="btn btn-primary">Proceed to Checkout</a>
+<a href="Index.html" class="btn btn-primary">View Product</a>
+    </div>
     </form>
 
 </div>    
-    
+
+<script>
+    let popup = document.getElemtById("popup");
+</script>
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+
 </body>
 </html>
