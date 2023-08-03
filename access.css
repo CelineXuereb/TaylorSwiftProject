@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Abril Fatface', cursive;   
 }
 
 body{
@@ -68,42 +68,5 @@ font-size: 1.5em;
 .wrapper.content p{
     transition: 0.5s;
     margin-bottom: 25px;
-}
-
-.card-header{
-    background-color: #453653;
-    height: 500px;
- }
-.wrapper{
-    margin: 150px auto;
-    width: 70%;
-}
-
-.card img{
-    float: left;
-    width: 20%;
-    height: 20%;
-}
-
-.carousel-inner h1{
-    align-items: center;
-    }
-    
-    .carousel-inner img{
-       object-fit: fill;
-    filter: brightness(0.6);
-    }
-
-
-.text-box{
-color: #fff;
-}
-
-.text-box h2{
-    font-size: 42px;
-}
-
-.text-box p{
-    font-size: 16px;
 }
 

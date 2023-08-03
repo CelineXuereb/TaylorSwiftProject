@@ -81,6 +81,7 @@ width: 25px;
 cursor: pointer;
 }
 
+
 .iconsContainer .icons{
    display: grid;
    grid-template-columns: repeat(5,1fr);
@@ -345,6 +346,12 @@ h1{
    align-items: center;
 }
 /*____paragragh____*/
+.wrapper.content p{
+    transition: 0.5s;
+    margin-bottom: 25px;
+}
+
+
 p{
  font-family: 'Courier New', Courier, monospace;
  color: #fff;
@@ -574,8 +581,69 @@ cursor: pointer;
    }
 
    .btn.btn-primary{
-      background-color: #f0e8f8;
+      background-color: #453653;
       --bs-btn-hover-bg: #453653;
       --bs-btn-hover-border-color: #453653;
       --bs-btn-border-color: #453653;
-  }
+}
+
+
+/*video gallery caption*/
+
+
+.wrapper{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1150px;
+   margin: 20px auto;
+   padding: 0 20px;
+}
+
+.wrapper .buttons{
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   margin-bottom: 20px;
+}
+
+
+.wrapper .buttons .btn{
+   padding:  0 10px;
+   display: flex;
+   background-color: #000000;
+   color: #fff;
+   margin-left: 10px;
+   cursor: pointer;
+   width: 50px;
+   border-radius: 50%;
+}
+
+.wrapper .buttons .btn.active{
+background-color: rgba(0, 255, 255, 0.536);
+}
+
+
+.wrapper .buttons .btn:nth-child(2){
+font-size: 1.5em;
+}
+
+.wrapper .buttons .btn:nth-child(3){
+   font-size: 2em;
+}
+
+.wrapper .content{
+   font-size: 1em;
+   color: bisque;
+   line-height: 30px;
+   transition: 0.5s;
+   text-align: justify;
+}
+
+.wrapper.content h2,
+.wrapper.content p{
+   transition: 0.5s;
+   margin-bottom: 25px;
+}
