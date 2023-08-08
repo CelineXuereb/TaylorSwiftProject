@@ -102,7 +102,6 @@ cursor: pointer;
    width: 25px;
 }
 
-
 /*End Navigation Bar*/
 
 /*Backgound color and Typeface*/
@@ -364,7 +363,7 @@ section{
    align-items: center;
 }
 
-/*video gallery section*/
+/*album- gallery section*/
 .section header{
    margin-top: 80%;
    color: #C1E3ED;
@@ -375,7 +374,7 @@ section{
    letter-spacing: 10rem;
    margin-bottom: 15px;
 }
-/*video gallery underline*/
+/*album gallery underline*/
 .underline{
    border: 1px solid#fff;
    width: 10rem;
@@ -383,8 +382,8 @@ section{
    align-items: center;
    margin-bottom: 30px;
 }
-/*video gallery*/
-.video-gallery{
+/*album gallery*/
+.album-gallery{
 height: 100%;
 max-width: 100%;
 display: grid;
@@ -396,7 +395,7 @@ margin-left: 12.5%;
 padding:10px;
 }
 
-.video-gallery .gallery-item{
+.album-gallery .gallery-item{
    position: relative;
    float: left;
    overflow: hidden;
@@ -410,7 +409,7 @@ padding:10px;
    cursor: pointer;
 }
 
-.video-gallery .gallery-item img{
+.album-gallery .gallery-item img{
    width: 105%;
    height:200px;
    display: block;
@@ -421,37 +420,37 @@ padding:10px;
    backface-visibility: hidden;
 }
 
-.video-gallery .gallery-item:hover img{
+.album-gallery .gallery-item:hover img{
    opacity: .5;
    transform: translate3d(0px, 0px, 0px);
 }
 
-/*video gallery caption*/
-.gallery-item-caption {
+/*album gallery caption*/
+.album-item-caption {
    color: #453653;
    padding: 1rem;
    text-transform:capitalize;
-   font-size: 1.08em;
+   font-size: 1.00em;
    text-align: left;
    position: absolute;
    top:0;
    left:0;
 }
 
-.video-gallery .gallery-item h2{
+.album-gallery .gallery-item h2{
 font-weight: 300;
 overflow: hidden;
 padding: 0.1rem 0;
 }
 
-.video-gallery .gallery-item h2,
-.video-gallery .gallery-item p{
+.album-gallery .gallery-item h2,
+.album-gallery .gallery-item p{
    position: relative;
    margin: 0;
    z-index: 10;
 }
 
-.video-gallery .gallery-item h2::after{
+.album-gallery .gallery-item h2::after{
 content: "";
 position: absolute;
 bottom: 0;
@@ -463,14 +462,14 @@ transition: transform 0.3s;
 transform: translate3d(-100px, 0px, 0px);
 }
 
-.video-gallery .gallery-item:hover h2::after{
+.album-gallery .gallery-item:hover h2::after{
 transform: translate3d(0px, 0px, 0px);
 }
 
-/*video gallery paragraph*/
-.video-gallery .gallery-item p{
+/*album gallery paragraph*/
+.album-gallery .gallery-item p{
 letter-spacing: 1px;
-font-size: 68%;
+font-size: 50%;
 padding: 1em 0;
 opacity: 0;
 transition: opacity 0.35, transform 0.35s;
@@ -479,12 +478,12 @@ color: #453653;
 font-weight: 100;
 }
 
-.video-gallery .gallery-item:hover p{
+.album-gallery .gallery-item:hover p{
 opacity: 1;
 transform: translate3d(0px, 0px, 0px);
    }
 
-/*video gallery*/
+/*end album gallery section*/
 
 
 .title{
@@ -499,7 +498,7 @@ transform: translate3d(0px, 0px, 0px);
    border-bottom: 2px solid #fff;
    cursor: pointer;
 }
-
+/*Circle section*/
 .question{
 display:flex;
 justify-content: space-between;
@@ -526,6 +525,8 @@ align-items: center;
    background-color: #C1E3ED;
    height: 600px;
 }
+/*End Circle section*/
+
 /*Start FAQ'S*/
 .faq.active .answer{
    max-height: 300px;
@@ -541,6 +542,7 @@ svg{
 }
 /*End of FAQ's */
 
+/*International tourdates image*/
 .Tourdates{
    background-color: #453653;
    height: 900px;
@@ -551,7 +553,7 @@ svg{
    align-items: center;
 
 }
-
+/*End International tourdates image*/
 
 
 @keyframes fade{
@@ -564,7 +566,7 @@ svg{
       transform: translateY(0px);
    }
    }
-
+/*Videos section*/
    .container.video-list video{
 width: 100%;
 object-fit: cover;
@@ -572,10 +574,20 @@ height: 105px;
 padding: 10px;
 cursor: pointer;
    }
-
+/*Button setup*/
    .btn.btn-primary{
 
       --bs-btn-hover-bg: #C79FC8;
       --bs-btn-hover-border-color: #453653;
       --bs-btn-border-color: #453653;
-  }
+}
+
+.Tourdates{
+width: auto;
+}
+
+.Tourdates img{
+   align-items: center;
+   object-fit: cover;
+right: 30px;
+}

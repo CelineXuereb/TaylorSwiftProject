@@ -49,3 +49,13 @@ padding: 10px;
    outline: none;
    padding: 10px;
 }
+.video-list{
+  position: absolute;
+}
+.video.strip{
+    background-color: #be29c4;   
+}
+
+.container{
+    background-color: #67136a;
+}

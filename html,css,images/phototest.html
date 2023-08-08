@@ -17,7 +17,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/store.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/pd deatiltest.css">
+  <link rel="stylesheet" href="css/phototest.css">
   <!--Add to cart-->
   <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/components/offcanvas/">
   <!--trash-->
@@ -67,36 +67,31 @@
                                 <label>1</label>
                                 <span>+</span>
                                 <text-align: center>
+                                    <button>Add to cart</button>
                             </div>
 
-                            <button class="button"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Add to cart</button>
 
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                              <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Add to Cart</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                              </div>
-                              <div class="offcanvas-body">
-                                <h3>Cosemtic Bag</h3>
-                                <img src="images/productimages/taylorswiftmidnightsalbum - Copy.png">
-                                <p>Midnights ablum</p>
-
-      <span class="price">£3.0</span>
-      <ul>
-      <span class="quantity">Qty: 1</span>
-    </ul>
-      <div class="total">Total :</div>
-      <a href="payment.html" class="btn btn-primary">Checkout</a>
-                              </div>
-                            </div>
-
-                              </div>
-                            </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
+	<!--Add to chart-->
+                        <div class="shopping-cart">
+                            <header>
+                                <h1> Me</h1>
+                                <div class="shopping">
+                            <img src="images/iconsimages/bag-heart.svg" alt>
+                            <span class="Quantity">0</span>
+                            <button>Add to cart</button>
                         </div>
-                    </div>
+                    </header>
+                    <div class="list"></div>
+                        </div>
+                        <div class="card">
+                        <h1>Cards</h1>
+                        <ul class="listCard"></ul>
+                        <div class="total">0</div>
+                        <div class="closeShopping">Close</div>
+                        </div>
+
+                        <script src="javascript/cart.js"></script>
+
                 <!--Product Details funtion-->
                 <script src="javascript/productdetailsfunction.js"></script>
             </body>

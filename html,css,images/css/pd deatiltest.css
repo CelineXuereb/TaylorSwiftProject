@@ -5,7 +5,7 @@
     font-family: 'Abril Fatface', cursive;   
     transition: .2s linear;
 }
-
+        /*navigation bar*/
 nav{
     display: flex;
     width: 100%;
@@ -22,7 +22,6 @@ nav{
     text-align: center; 
     background-color: #000; 
 } 
-
 
 nav ul li{
     display: inline-block;
@@ -63,8 +62,8 @@ nav ul li a:hover:after{
     width: 25px;
     cursor: pointer;
 }
-
 body{
+    font-family: 'Abril Fatface', cursive;
     background: #C1E3ED;
 }
 
@@ -73,14 +72,40 @@ p {
     line-height: 25px;
     font-family: 'Nixie One', cursive;
 }
+
+#navbar ul { 
+    margin: 0; 
+    padding: 5px; 
+    list-style-type: none; 
+    text-align: center; 
+    background-color: #000; 
+    } 
+
+#navbar ul li {  
+    display: inline; 
+    } 
+
+#navbar ul li a { 
+    text-decoration: none; 
+    padding: .2em 1em; 
+    color: #fff; 
+    background-color: #000; 
+    } 
+
+#navbar ul li a:hover { 
+    color: #000; 
+    background-color: #fff; 
+    } 
+
+        /*container flex*/
 .container{
     max-width: 75%;
     margin: auto;
     height: 90vh;
     margin-top: 5%;
     background-color: white;
-    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
-    
+    box-shadow: 5px 5px 10px 3px rgba(32, 52, 34, 0);
+
 }
 .left, .right{
     width: 50%;
@@ -100,12 +125,20 @@ p {
     width: auto;
     height: auto;
 }
-
+        /*image inside the container*/
 .option img{
-    width: 500px;
+    width: 651px;
     height: 500px;
     padding: 10px;
 }
+
+.offcanvas-body .img{
+    width: 1px;
+    height: 5px;
+    padding: 10px;
+}
+
+
 
 .right{
     padding: 50px 100px 50px 50px;
@@ -113,8 +146,8 @@ p {
 
 h3{
     color:#C1E3ED;
-    margin: 20px 0 20px 0
-    font-size:25px;
+margin: 20px 0 20px 0
+font-size:25px;
 }
 
 h5,p,small {
@@ -139,7 +172,7 @@ label,
 .color span {
     width: 25px;
     height: 25px;
-    background-color:#C1E3ED;
+    background-color:#1c5048;
     border-radius:50%;
     margin: 30px 10px 30px 0px;
 }
@@ -173,4 +206,8 @@ button{
     color: white;
     margin-top: 20%;
     border-radius: 30%;
+}
+
+.offcanvas-body .option .img{
+width: 20px;
 }

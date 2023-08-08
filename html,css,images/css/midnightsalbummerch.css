@@ -98,9 +98,9 @@ p {
     } 
 
 .container{
-    max-width: 75%;
+    max-width: 90%;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
     margin-top: 5%;
     background-color: white;
     box-shadow: 5px 5px 10px 3px rgba(32, 52, 34, 0);
