@@ -576,7 +576,7 @@ cursor: pointer;
    }
 /*Button setup*/
    .btn.btn-primary{
-
+      --bs-btn-bg: #453653;
       --bs-btn-hover-bg: #C79FC8;
       --bs-btn-hover-border-color: #453653;
       --bs-btn-border-color: #453653;
@@ -590,4 +590,17 @@ width: auto;
    align-items: center;
    object-fit: cover;
 right: 30px;
+}
+
+button{
+   padding: 5px;
+   border: none;
+   outline: none;
+   background-color: #C7AFC8;
+   color: white;
+   border-radius: 30%;
+}
+
+.offcanvas-body.h3{
+color: #C79FC8;
 }

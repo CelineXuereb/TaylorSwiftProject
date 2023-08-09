@@ -101,7 +101,7 @@ p {
 .container{
     max-width: 75%;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
     margin-top: 5%;
     background-color: white;
     box-shadow: 5px 5px 10px 3px rgba(32, 52, 34, 0);
@@ -166,7 +166,7 @@ p {
 h5{
     font-size:15px;
 }
-
+/*Quantity button*/
 label,
 .add span,
 .color span {
@@ -210,4 +210,32 @@ button{
 
 .offcanvas-body .option .img{
 width: 20px;
+}
+/*Quanity*/
+.wrapper{
+    height: 50px;
+    min-width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.wrapper.span{
+width: 100%;
+text-align: center;
+font-size: 55px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.wrapper span.num{
+
+    border-radius: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+
+.span{
+    cursor: pointer;
 }

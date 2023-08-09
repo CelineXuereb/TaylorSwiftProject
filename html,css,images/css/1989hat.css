@@ -73,15 +73,16 @@ p {
     line-height: 25px;
     font-family: 'Nixie One', cursive;
 }
+/*White Container*/
 .container{
     max-width: 75%;
     margin: auto;
-    height: 90vh;
+    height: 95vh;
     margin-top: 5%;
     background-color: white;
     box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
-
 }
+
 .left, .right{
     width: 50%;
     padding: 30px;
@@ -96,42 +97,32 @@ p {
     display: flex;
 }
 
-.main_image{
-    width: auto;
-    height: auto;
-}
-
-.option img{
-    width: 500px;
-    height: 500px;
-    padding: 10px;
-}
-
 .right{
     padding: 50px 100px 50px 50px;
 }
-
+/*Header 3*/
 h3{
-    color:#C1E3ED;
-margin: 20px 0 20px 0
+color:#C1E3ED;
+margin: 20px 0 20px 0;
 font-size:25px;
 }
 
-h5,p,small {
-    color:#837d7c;
-}
-
+/*Header 4*/
 h4 {
     color:red;
 }
-
+/*Paragraph*/
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
 }
-
+/*Header 5*/
 h5{
     font-size:15px;
+}
+/*Header 5 paragraph*/
+h5,p,small {
+    color:#837d7c;
 }
 
 label,
@@ -173,4 +164,40 @@ button{
     color: white;
     margin-top: 20%;
     border-radius: 30%;
+}
+
+/*Button setup*/
+.btn.btn-primary{
+    --bs-btn-bg: #453653;
+    --bs-btn-hover-bg: #C79FC8;
+    --bs-btn-hover-border-color: #453653;
+    --bs-btn-border-color: #453653;
+}
+/*Quanity*/
+.wrapper{
+    height: 50px;
+    min-width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.wrapper.span{
+width: 100%;
+text-align: center;
+font-size: 55px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.wrapper span.num{
+
+    border-radius: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+
+.span{
+    cursor: pointer;
 }

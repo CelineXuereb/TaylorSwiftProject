@@ -5,7 +5,7 @@
     font-family: 'Abril Fatface', cursive;   
     transition: .2s linear;
 }
-
+/*Navigation bar*/
 nav{
     display: flex;
     width: 100%;
@@ -14,7 +14,6 @@ nav{
     padding: 5px 0;
     background-color: #453653;
 }
-
 #navbar ul { 
     margin: 0; 
     padding: 5px; 
@@ -22,15 +21,13 @@ nav{
     text-align: center; 
     background-color: #000; 
 } 
-
-
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 30px;
     text-align: right;
 }
-
+/*Nagivation hover*/
 nav ul li a{
     color: #C7AFC8;
     text-decoration: none;
@@ -52,30 +49,29 @@ nav ul li a::after{
 nav ul li a:hover:after{
     width: 50%;
 }
-
+/*logo*/
 .logo{
     width: 80px;
     cursor: pointer;
     margin-right: auto;
 }
-
 .bag-heart {
     width: 25px;
     cursor: pointer;
 }
-
+/*End logo*/
 body{
     background: #753F47;
 }
-
+/*paragraph*/
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
     font-family: 'Nixie One', cursive;
 }
-
+/*White container*/
 .container{
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
     height: 90vh;
     margin-top: 5%;
@@ -88,7 +84,6 @@ p {
     padding: 30px;
 }
 
-
 .flex{
     display:flex;
     justify-content: space-between;
@@ -98,42 +93,79 @@ p {
     display: flex;
 }
 
-.main_image{
-    width: auto;
-    height: auto;
-}
-
-.option img{
-    width: 500px;
-    height: 500px;
-    padding: 10px;
-}
-
 .right{
     padding: 50px 100px 50px 50px;
 }
-
+/*Header 3 title*/
 h3{
-    color:#753F47;
-margin: 20px 0 20px 0
+color:#753F47;
+margin: 20px 0 20px 0;
 font-size:25px;
 }
-
+/*Sub-Header 5*/
 h5,p,small {
     color:#837d7c;
 }
-
+/*Price*/
 h4 {
     color:red;
 }
-
+/*Paragraph*/
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
 }
 
+/*Header 5*/
 h5{
     font-size:15px;
+}
+
+/*Add to cart button*/
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #753F47;
+    color: white;
+    margin-top: 20%;
+    border-radius: 30%;
+}
+/*Button setup in offcanvas*/
+.btn.btn-primary{
+    --bs-btn-bg: #453653;
+    --bs-btn-hover-bg: #C79FC8;
+    --bs-btn-hover-border-color: #453653;
+    --bs-btn-border-color: #453653;
+}
+/*Quanity*/
+.wrapper{
+    height: 50px;
+    min-width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.wrapper.span{
+width: 100%;
+text-align: center;
+font-size: 55px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.wrapper span.num{
+
+    border-radius: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+
+.span{
+    cursor: pointer;
 }
 
 label,
@@ -164,15 +196,4 @@ label,
     padding: 10px 30px 0 20px;
     border-radius: 50px;
     line-height: 0;
-}
-
-button{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    outline: none;
-    background-color: #753F47;
-    color: white;
-    margin-top: 20%;
-    border-radius: 30%;
 }

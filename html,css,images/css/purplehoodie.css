@@ -5,7 +5,7 @@
     font-family: 'Abril Fatface', cursive;   
     transition: .2s linear;
 }
-
+/*Navigation Bar*/
 nav{
     display: flex;
     width: 100%;
@@ -29,7 +29,7 @@ nav ul li{
     margin: 10px 30px;
     text-align: right;
 }
-
+/*Navigation Bar Hover*/
 nav ul li a{
     color: #C7AFC8;
     text-decoration: none;
@@ -51,7 +51,7 @@ nav ul li a::after{
 nav ul li a:hover:after{
     width: 50%;
 }
-
+/*logo*/
 .logo{
     width: 80px;
     cursor: pointer;
@@ -66,37 +66,13 @@ body{
     font-family: 'Abril Fatface', cursive;
     background: #C7AFC8;
 }
-
+/*paragraph*/
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
     font-family: 'Nixie One', cursive;
 }
-
-#navbar ul { 
-    margin: 0; 
-    padding: 5px; 
-    list-style-type: none; 
-    text-align: center; 
-    background-color: #000; 
-    } 
-
-#navbar ul li {  
-    display: inline; 
-    } 
-
-#navbar ul li a { 
-    text-decoration: none; 
-    padding: .2em 1em; 
-    color: #fff; 
-    background-color: #000; 
-    } 
-
-#navbar ul li a:hover { 
-    color: #000; 
-    background-color: #fff; 
-    } 
-
+/*White Container*/
 .container{
     max-width: 75%;
     margin: auto;
@@ -125,23 +101,16 @@ p {
     height: auto;
 }
 
-.option img{
-    width: 651px;
-    height: 500px;
-    padding: 10px;
-}
-
 .right{
     padding: 50px 100px 50px 50px;
 }
-
-
+/*Header 3*/
 h3{
-    color:#C7AFC8;
-margin: 20px 0 20px 0
+color:#C7AFC8;
+margin: 20px 0 20px 0;
 font-size:25px;
 }
-
+/*Header 5 paragraph*/
 h5,p,small {
     color:#837d7c;
 }
@@ -149,15 +118,63 @@ h5,p,small {
 h4 {
     color:red;
 }
-
+/*paragraph*/
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
     font-family: 'Nixie One', cursive;
 }
-
+/*Header 5*/
 h5{
     font-size:15px;
+}
+/*Add to cart*/
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #C7AFC8;
+    color: white;
+    margin-top: 20%;
+    border-radius: 30%;
+}
+
+/*Button setup*/
+.btn.btn-primary{
+    --bs-btn-bg: #453653;
+    --bs-btn-hover-bg: #C79FC8;
+    --bs-btn-hover-border-color: #453653;
+    --bs-btn-border-color: #453653;
+}
+
+/*Quanity*/
+.wrapper{
+    height: 50px;
+    min-width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.wrapper.span{
+width: 100%;
+text-align: center;
+font-size: 55px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.wrapper span.num{
+
+    border-radius: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+
+.span{
+    cursor: pointer;
 }
 
 label,
@@ -188,15 +205,4 @@ label,
     padding: 10px 30px 0 20px;
     border-radius: 50px;
     line-height: 0;
-}
-
-button{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    outline: none;
-    background-color: #C7AFC8;
-    color: white;
-    margin-top: 20%;
-    border-radius: 30%;
 }

@@ -5,7 +5,7 @@
     font-family: 'Abril Fatface', cursive;   
     transition: .2s linear;
 }
-
+/*Navigation Bar*/
 nav{
     display: flex;
     width: 100%;
@@ -23,14 +23,13 @@ nav{
     background-color: #000; 
 } 
 
-
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 30px;
     text-align: right;
 }
-
+/*Navigation Bar Hover*/
 nav ul li a{
     color: #C7AFC8;
     text-decoration: none;
@@ -52,7 +51,7 @@ nav ul li a::after{
 nav ul li a:hover:after{
     width: 50%;
 }
-
+/*Logo*/
 .logo{
     width: 80px;
     cursor: pointer;
@@ -67,13 +66,13 @@ nav ul li a:hover:after{
 body{
     background: #C1E3ED;
 }
-
+/*White Container */
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
     font-family: 'Nixie One', cursive;
 }
-
+/*White Container */
 .container{
     max-width: 75%;
     margin: auto;
@@ -97,25 +96,14 @@ p {
     display: flex;
 }
 
-.main_image{
-    width: auto;
-    height: auto;
-}
-
-.option img{
-    width: 500px;
-    height: 500px;
-    padding: 10px;
-}
-
 .right{
     padding: 50px 100px 50px 50px;
 }
 
 h3{
     color:#92b1ba;
-margin: 20px 0 20px 0
-font-size:25px;
+    margin: 20px 0 20px 0;
+    font-size:25px;
 }
 
 h5,p,small {
@@ -133,6 +121,54 @@ p {
 
 h5{
     font-size:15px;
+}
+/*Add to cart*/
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #92b1ba;
+    color: white;
+    margin-top: 20%;
+    border-radius: 30%;
+}
+
+/*Button setup*/
+.btn.btn-primary{
+    --bs-btn-bg: #453653;
+    --bs-btn-hover-bg: #C79FC8;
+    --bs-btn-hover-border-color: #453653;
+    --bs-btn-border-color: #453653;
+}
+
+/*Quanity*/
+.wrapper{
+    height: 50px;
+    min-width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.wrapper.span{
+width: 100%;
+text-align: center;
+font-size: 55px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.wrapper span.num{
+
+    border-radius: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+
+.span{
+    cursor: pointer;
 }
 
 label,
@@ -163,15 +199,4 @@ label,
     padding: 10px 30px 0 20px;
     border-radius: 50px;
     line-height: 0;
-}
-
-button{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    outline: none;
-    background-color: #92b1ba;
-    color: white;
-    margin-top: 20%;
-    border-radius: 30%;
 }
