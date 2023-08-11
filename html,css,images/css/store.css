@@ -1,3 +1,4 @@
+/*Website*/
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,13 @@
     transition: .2s linear;
 }
 
+/*Background Colour*/
+
+body{
+    background: #C7AFC8;
+}
+
+/*Navigation Bar*/
 nav{
     display: flex;
     width: 100%;
@@ -29,7 +37,7 @@ nav ul li{
     margin: 10px 30px;
     text-align: right;
 }
-
+/*Navigation Bar Hover*/
 nav ul li a{
     color: #C7AFC8;
     text-decoration: none;
@@ -51,7 +59,7 @@ nav ul li a::after{
 nav ul li a:hover:after{
     width: 50%;
 }
-
+/*Logo*/
 .logo{
     width: 80px;
     cursor: pointer;
@@ -63,63 +71,40 @@ nav ul li a:hover:after{
     cursor: pointer;
 }
 
-body{
+/*Sub Header title "product Name" Typeface*/
+body h5{
     font-family: 'Abril Fatface', cursive;
-    background: #C7AFC8;
 }
 
+/*Paragraph*/
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
     font-family: 'Nixie One', cursive;
     font-weight: 700;
 }
-
-.container{
-    max-width: 75%;
-    margin: auto;
-    height: 90vh;
-    margin-top: 5%;
-    background-color: white;
-    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
-    
-}
-.left, .right{
-    width: 50%;
-    padding: 30px;
-}
-
-.flex{
-    display:flex;
-    justify-content: space-between;
-}
-
-.flex1 {
-    display: flex;
-}
-
-.main_image{
-    width: auto;
-    height: auto;
-}
-
-.option img{
-    width: 550px;
-    height: 500px;
-    padding: 10px;
-}
-
-body h5{
-    font-family: 'Abril Fatface', cursive;
-}
-
+/*Background colour*/
 .card{
     background-color: #4536537a;
+    align-items: center;
 }
 
-.btn-primary {
-    background-color: #453653;
-    --bs-btn-hover-bg: #453653;
+.card-body{
+    color: #453653;
+}
+
+/*Button setup in offcanvas add to cart*/
+.btn.btn-primary{
+    --bs-btn-bg: #453653;
+    --bs-btn-hover-bg: #C79FC8;
     --bs-btn-hover-border-color: #453653;
     --bs-btn-border-color: #453653;
+}
+/*Product cards*/
+.card{
+    width: 18rem;
+    text-align: center;
+}
+.card.card-body.h5{
+    text-align: center;
 }

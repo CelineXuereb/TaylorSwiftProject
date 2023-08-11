@@ -1,3 +1,4 @@
+/*Website*/
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
     font-family: 'Abril Fatface', cursive;   
     transition: .2s linear;
 }
-
+/*Navigation Bar*/
 nav{
     display: flex;
     width: 100%;
@@ -23,14 +24,13 @@ nav{
     background-color: #000; 
 } 
 
-
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 30px;
     text-align: right;
 }
-
+/*Navigation Bar Hover*/
 nav ul li a{
     color: #C7AFC8;
     text-decoration: none;
@@ -52,7 +52,7 @@ nav ul li a::after{
 nav ul li a:hover:after{
     width: 50%;
 }
-
+/*logo*/
 .logo{
     width: 80px;
     cursor: pointer;
@@ -63,11 +63,11 @@ nav ul li a:hover:after{
     width: 25px;
     cursor: pointer;
 }
-
+/*Background colour*/
 body{
     background: #C1E3ED;
 }
-
+/*Paragraph*/
 p {
     margin: 20px 0 50px 0;
     line-height: 25px;
@@ -107,7 +107,7 @@ margin: 20px 0 20px 0;
 font-size:25px;
 }
 
-/*Header 4*/
+/*Price*/
 h4 {
     color:red;
 }
@@ -144,7 +144,7 @@ label,
     background: none;
     border: 1px solid #C1E3ED;
     color:#C1E3ED;
-    text-align:25px;
+    text-align: 25px;
     line-height: 25px;
     text-align: center
 }
@@ -154,7 +154,7 @@ label,
     border-radius: 50px;
     line-height: 0;
 }
-
+/*Add to cart button*/
 button{
     width: 100%;
     padding: 10px;

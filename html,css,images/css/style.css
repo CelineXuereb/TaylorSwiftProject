@@ -1,4 +1,4 @@
-/*Navigation Bar*/
+/*Website*/
 *{
    margin: 0;
    padding: 0;
@@ -7,6 +7,13 @@
    transition: .2s linear;
 }
 
+/*Backgound color and Typeface*/
+body{
+   font-family: 'Abril Fatface', cursive;
+      background-color: #C7AFC8;
+   }
+
+/*Navigation Bar*/
 nav{
    display: flex;
    width: 100%;
@@ -39,7 +46,6 @@ nav{
 	text-align: center; 
 	background-color: #000; 
 	} 
-   
 
 nav ul li{
    display: inline-block;
@@ -47,7 +53,7 @@ nav ul li{
    margin: 10px 30px;
    text-align: right;
 }
-
+/*Navigation Bar Hover*/
 nav ul li a{
    color: #C7AFC8;
    text-decoration: none;
@@ -70,6 +76,7 @@ nav ul li a:hover:after{
    width: 50%;
 }
 
+/*Logo*/
 .logo{
    width: 80px;
    cursor: pointer;
@@ -81,34 +88,9 @@ width: 25px;
 cursor: pointer;
 }
 
-.iconsContainer .icons{
-   display: grid;
-   grid-template-columns: repeat(5,1fr);
-   grid-gap: -1rem 1rem;}
-
-   .iconsContainer .icons.bi{
-      cursor: pointer;
-      font-size:40px;
-      padding: 1.5rem 2rem;
-      border-radius: 50%;
-   }
-
-.social-icon{
-   color: #C1E3ED;
-}
-
-.cart-icon{
-   color: #fff;
-   width: 25px;
-}
-
 /*End Navigation Bar*/
 
-/*Backgound color and Typeface*/
-body{
-  font-family: 'Abril Fatface', cursive;
-   background-color: #C7AFC8;
-}
+/*Home Landing Page*/
 
 /*Carousel*/
 .carousel-item{
@@ -118,7 +100,7 @@ body{
 .carousel-imgs{
    height: fit-content;
    object-fit: cover;
-   filter: brightness(0.6);
+   filter: brightness(0.7);
 }
 
 .carousel-caption h5{
@@ -132,7 +114,6 @@ letter-spacing: normal;
    margin: auto;
    font-size: 20px;
    line-height: 1.9;
-
 }
 
 .carousel-caption a{
@@ -144,9 +125,123 @@ letter-spacing: normal;
    margin-top: 15px;
 }
 
+.carousel-inner h1{
+   align-items: center;
+   }
+   
+   .carousel-inner img{
+      object-fit: fill;
+   filter: brightness(0.7);
+   }
+
 /*End Carousel*/
 
-/*video gallery*/
+
+/*Social media Icons*/
+.iconsContainer .icons{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   grid-gap: -1rem 1rem;}
+
+   .iconsContainer .icons.bi{
+      cursor: pointer;
+      font-size:40px;
+      padding: 1.5rem 2rem;
+      border-radius: 50%;
+   }
+
+/*End Social media Icons*/
+
+/*____mission card container____*/
+
+.wrapper{
+   margin: 110px auto;
+   width: 0%;
+}
+
+.card-header{
+   background-color: #453653;
+   height: 100px;
+}
+
+/*____mission card container "Her Career" in about page____*/
+.card-header-news{
+   background-color: #45365391;
+   height: 500px;
+}
+
+/*____mission1 img____*/
+.mission1 img{
+   float: left;
+   width: 40%;
+   height: 40%;
+   background-size: contain;
+   background-origin: content-box;
+}
+
+.mission1 {
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 50px;
+}
+
+/*____mission card container 2nd Social in about page____*/
+.card-header-news2{
+   background-color: #453653;
+   height: 500px;
+}
+
+/*____mission2 img____*/
+.mission2 img{
+   float: right;
+   width: 40%;
+   height: 40%;
+}
+
+.mission2 {
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 50px;
+}
+
+/*____mission1 img____*/
+.mission img{
+   float: right;
+   width: 20%;
+   height: 20%;
+padding: 5px;
+}
+
+h1{
+   font-size: 36px;
+   font-weight: 600;
+   color: #fff;
+   align-items: center;
+}
+
+/*____paragragh____*/
+p{
+font-family: 'Courier New', Courier, monospace;
+color: #fff;
+font-weight: 300;
+line-height: 22px;
+text-align: center;
+}
+
+section{
+   min-height: 100vh;
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+/*Album Page*/
+
+/*Album Gallery*/
 .section header{
    margin-top: 80%;
    color: #C1E3ED;
@@ -262,107 +357,9 @@ opacity: 1;
 transform: translate3d(0px, 0px, 0px);
    }
 
-/*video gallery*/
+/*Album gallery*/
 
-/*____mission card container____*/
-
-.wrapper{
-   margin: 150px auto;
-   width: 70%;
-}
-
-.card-header{
-   background-color: #453653;
-   height: 500px;
-}
-/*____mission card container in about page____*/
-.card-header-news{
-   background-color: #45365391;
-   height: 500px;
-}
-
-/*____mission1 img____*/
-.mission1 img{
-   float: left;
-   width: 40%;
-   height: 40%;
-}
-
-.mission1 {
-   width: 80%;
-   margin: auto;
-   text-align: center;
-   padding-top: 50px;
-}
-
-/*____mission card container 2nd in about page____*/
-.card-header-news2{
-   background-color: #453653;
-   height: 500px;
-}
-
-/*____mission2 img____*/
-.mission2 img{
-   float: right;
-   width: 40%;
-   height: 40%;
-}
-
-.mission2 {
-   width: 80%;
-   margin: auto;
-   text-align: center;
-   padding-top: 50px;
-}
-
-.carousel-inner h1{
-align-items: center;
-}
-
-.carousel-inner img{
-   object-fit: fill;
-filter: brightness(0.6);
-}
-/*____mission img in home page____*/
-.mission{
-   width: 80%;
-   margin: auto;
-   text-align: center;
-   padding-top: 50px;
-}
-/*____mission1 img____*/
-.mission img{
-   float: left;
-   width: 20%;
-   height: 20%;
-}
-
-h1{
-   font-size: 36px;
-   font-weight: 600;
-   color: #fff;
-   align-items: center;
-}
-/*____paragragh____*/
-p{
-font-family: 'Courier New', Courier, monospace;
-color: #fff;
-font-weight: 300;
-line-height: 22px;
-padding: 10px;
-text-align: center;
-}
-
-section{
-   min-height: 100vh;
-   width: 80%;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-/*album- gallery section*/
+/*Gossip Lane section*/
 .section header{
    margin-top: 80%;
    color: #C1E3ED;
@@ -371,9 +368,9 @@ section{
    font-weight: 700;
    text-transform: capitalize;
    letter-spacing: 10rem;
-   margin-bottom: 15px;
+   margin-bottom: px;
 }
-/*album gallery underline*/
+
 .underline{
    border: 1px solid#fff;
    width: 10rem;
@@ -381,7 +378,7 @@ section{
    align-items: center;
    margin-bottom: 30px;
 }
-/*album gallery*/
+
 .album-gallery{
 height: 100%;
 max-width: 100%;
@@ -482,14 +479,12 @@ opacity: 1;
 transform: translate3d(0px, 0px, 0px);
    }
 
-/*end album gallery section*/
+/*end Gossip Lane section*/
+
+   /*End Circle section*/
 
 
-.title{
-   font-size: 3rem;
-   margin: 2rem 0rem;
-}
-/*faqs*/
+/*Start FAQ'S*/
 .faq{
    max-width: 700px;
    margin-top: 2rem;
@@ -497,36 +492,7 @@ transform: translate3d(0px, 0px, 0px);
    border-bottom: 2px solid #fff;
    cursor: pointer;
 }
-/*Circle section*/
-.question{
-display:flex;
-justify-content: space-between;
-align-items: center;
-}
 
-.question h3{
-   font-size: 1.8rem;
-}
-
-.answer{
-   max-height: 0;
-   overflow: hidden;
-   transition: max-height 1.4s ease;
-}
-
-.answer p{
-   padding-top: 1rem;
-   line-height: 1.6;
-   font-size: 1.4rem;
-}
-
-.card-header-faq{
-   background-color: #C1E3ED;
-   height: 600px;
-}
-/*End Circle section*/
-
-/*Start FAQ'S*/
 .faq.active .answer{
    max-height: 300px;
    animation: fade 1s ease-in-out;
@@ -539,6 +505,45 @@ align-items: center;
 svg{
    transition: transform 0.5s ease-in;
 }
+
+.title{
+   font-size: 3rem;
+   margin: 2rem 0rem;
+   color: #453653;
+}
+
+.question{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   }
+   
+/*FAQ's Subheaders title */
+   .question h3{
+      font-size: 1.8rem;
+      color: #453653;
+   }
+   
+   .answer{
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 1.4s ease;
+   }
+   
+/*FAQ's Answers paragraph */
+   .answer p{
+      padding-top: 1rem;
+      line-height: 1.6;
+      font-size: 1.4rem;
+      color: #C79FC8;
+   }
+   
+/*FAQ's background colour container */
+   .card-header-faq{
+      background-color: #C1E3ED;
+      height: 600px;
+   }
+
 /*End of FAQ's */
 
 /*International tourdates image*/
@@ -548,10 +553,27 @@ svg{
    width: 220%;
 }
 
-.Tourdates.img{
-   align-items: center;
 
+
+.Tourdates.img {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   align-items: center;
 }
+
+.Tourdates{
+   width: auto;
+   }
+   
+   .Tourdates img{
+      align-items: center;
+      object-fit: cover;
+   right: 30px;
+   }
+   
+
 /*End International tourdates image*/
 
 
@@ -565,6 +587,7 @@ svg{
       transform: translateY(0px);
    }
    }
+
 /*Videos section*/
    .container.video-list video{
 width: 100%;
@@ -573,22 +596,13 @@ height: 105px;
 padding: 10px;
 cursor: pointer;
    }
-/*Button setup*/
+
+/*Button setup in offcanvas add to cart*/
    .btn.btn-primary{
       --bs-btn-bg: #453653;
       --bs-btn-hover-bg: #C79FC8;
       --bs-btn-hover-border-color: #453653;
       --bs-btn-border-color: #453653;
-}
-
-.Tourdates{
-width: auto;
-}
-
-.Tourdates img{
-   align-items: center;
-   object-fit: cover;
-right: 30px;
 }
 
 button{
@@ -610,7 +624,7 @@ color: #C79FC8;
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 1150px;
+   width: 150px;
    margin: 20px auto;
    padding: 0 20px;
 }
@@ -621,6 +635,7 @@ color: #C79FC8;
    justify-content: flex-end;
    align-items: flex-end;
    margin-bottom: 20px;
+   float: right;
 }
 
 
@@ -670,3 +685,9 @@ font-size: 1.5em;
    margin: 150px auto;
    width: 70%;
 }
+/*End Accesbility Tool*/
+
+img { 
+   width: 100%;
+   height: auto;
+ }

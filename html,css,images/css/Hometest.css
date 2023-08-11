@@ -69,12 +69,6 @@ body{
 }
 
 
-img {
-   float: left;
-   width: 372px;
-   height: 509px;
-   }
-
    p{
       font-family: 'Courier New', Courier, monospace;
       color: #fff;
@@ -86,3 +80,30 @@ img {
       margin: 0;
       padding: 0;
    }
+
+
+  
+  img { 
+    width: 100%;
+    height: 50%;
+  }
+
+  .carousel-inner h1{
+    align-items: center;
+    }
+    
+    .carousel-inner img{
+       object-fit: fill;
+    filter: brightness(0.7);
+    }
+
+    /*Videos section*/
+   .container.video-list video{
+    width: 100%;
+    object-fit: cover;
+    height: 105px;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+       }
+    

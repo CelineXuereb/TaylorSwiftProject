@@ -1,3 +1,4 @@
+/*Website*/
 *{
     margin: 0; padding: 0; box-sizing: border-box;
 }
@@ -9,6 +10,7 @@
     justify-content: center;
     background: rgb(red, green, blue);
 }
+/*Social media Icons*/
 .icon{
     width: 100px;
     height: 100px;
@@ -33,48 +35,36 @@
 .icon:hover i{
     color: #fff;
 }
-
-
+/*Facebook Icon*/
 .icon .fa-facebook-f{
     color: rgb(0, 128, 255)
 }
-
 .fb:hover{
     background:rgb(0, 128, 255);
     cursor:pointer;
 }
-
-
+/*Instagram Icon*/
 .icon .fa-instagram{
     color: rgb(106, 0, 255)
 }
-
 .insta:hover{
     background:rgb(106, 0, 255);
 } 
-
-.icon .fa-twitter{
-    color: rgb(0, 128, 255)
-}
-
-.twt:hover{
-    background:rgb(0, 128, 255);
-}
-
+/*Youtube Icon*/
 .icon .fa-youtube{
     color: red
 }
 .yt:hover{
     background:red;
 }
-
+/*Tic-Tok Icon*/
 .icon .fa-tiktok{
     color:#b8e3f5
 }
 .tt:hover{
     background:#b8e3f5;
 }
-
+/*Spotify Icon*/
 .icon.fa-spotify{
     color:#1ed760;
 }
