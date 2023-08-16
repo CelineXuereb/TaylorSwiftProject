@@ -1,4 +1,4 @@
-
+    /*Website*/
     *{
         margin: 0;
         padding: 0;
@@ -105,7 +105,7 @@ font-size:25px;
 h5,p,small {
     color:#837d7c;
 }
-/*Header 4*/
+/*Price*/
 h4 {
     color:red;
 }

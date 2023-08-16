@@ -30,7 +30,7 @@ nav{
 
 .text-box p{
    font-size: 100%;
-   font-weight: 1200;
+   font-weight: 120;
 }
 
 .text-box h5{
@@ -103,7 +103,7 @@ cursor: pointer;
    filter: brightness(0.7);
 }
 
-.carousel-caption h5{
+.carousel-caption h1{
 font-size: 70px;
 text-transform: capitalize;
 letter-spacing: normal;
@@ -124,7 +124,6 @@ letter-spacing: normal;
    color: #fff;
    margin-top: 15px;
 }
-
 .carousel-inner h1{
    align-items: center;
    }
@@ -141,7 +140,9 @@ letter-spacing: normal;
 .iconsContainer .icons{
    display: grid;
    grid-template-columns: repeat(5,1fr);
-   grid-gap: -1rem 1rem;}
+   grid-gap: -1rem 1rem;
+   margin-bottom: 2%;
+}
 
    .iconsContainer .icons.bi{
       cursor: pointer;
@@ -151,6 +152,24 @@ letter-spacing: normal;
    }
 
 /*End Social media Icons*/
+
+/*Video Section*/
+.card-title{
+   color: #fff;
+   margin-left: 45%;
+}
+
+.SocialMediaLinks-title{
+   color: #fff;
+   margin-left: 40%;
+   margin-top: 2%;
+}
+/*Video Section*/
+
+.video-header{
+   background-color: #453653;
+   height: 300px;
+}
 
 /*____mission card container____*/
 
@@ -215,7 +234,7 @@ padding: 5px;
 }
 
 h1{
-   font-size: 36px;
+   font-size: 40px;
    font-weight: 600;
    color: #fff;
    align-items: center;
@@ -359,7 +378,12 @@ transform: translate3d(0px, 0px, 0px);
 
 /*Album gallery*/
 
-/*Gossip Lane section*/
+/*Gossip Lane Section*/
+.Font{
+   margin-left: 43%;
+   color: #fff;
+   }
+
 .section header{
    margin-top: 80%;
    color: #C1E3ED;
@@ -376,7 +400,7 @@ transform: translate3d(0px, 0px, 0px);
    width: 10rem;
    margin: 0 auto;
    align-items: center;
-   margin-bottom: 30px;
+   margin-bottom: 40px;
 }
 
 .album-gallery{
@@ -479,10 +503,9 @@ opacity: 1;
 transform: translate3d(0px, 0px, 0px);
    }
 
-/*end Gossip Lane section*/
+/*End Gossip Lane section*/
 
    /*End Circle section*/
-
 
 /*Start FAQ'S*/
 .faq{
@@ -546,34 +569,20 @@ svg{
 
 /*End of FAQ's */
 
-/*International tourdates image*/
+/*International tourdates*/
 .Tourdates{
    background-color: #453653;
    height: 900px;
-   width: 220%;
-}
-
-
-
-.Tourdates.img {
-   position: absolute;
-   top: 50%;
-   width: 100%;
-   text-align: center;
-   align-items: center;
-}
-
-.Tourdates{
    width: auto;
-   }
-   
-   .Tourdates img{
-      align-items: center;
-      object-fit: cover;
-   right: 30px;
-   }
-   
+}
 
+   .Tourdates img{
+      margin-left: 25%;
+   }
+   
+   .Tourdates-title{
+      margin-left: 35%;
+   }
 /*End International tourdates image*/
 
 
@@ -599,6 +608,8 @@ cursor: pointer;
 
 /*Button setup in offcanvas add to cart*/
    .btn.btn-primary{
+      --bs-btn-active-border-color: #453653;
+      --bs-btn-active-bg: #C79FC8;
       --bs-btn-bg: #453653;
       --bs-btn-hover-bg: #C79FC8;
       --bs-btn-hover-border-color: #453653;
@@ -687,7 +698,8 @@ font-size: 1.5em;
 }
 /*End Accesbility Tool*/
 
-img { 
-   width: 100%;
+
+.mobile-hide.img{
+   width: 30%;
    height: auto;
- }
+}
