@@ -13,16 +13,7 @@ body{
     background-color: #C7AFC8;
 }
 
-/*____paragragh____*/
-p{
-    font-family: 'Courier New', Courier, monospace;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-    text-align: center;
-}
+
 
 .section-title.font{
     color: #000;

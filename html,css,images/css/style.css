@@ -151,9 +151,18 @@ letter-spacing: normal;
       border-radius: 50%;
    }
 
-/*End Social media Icons*/
+   .icon:hover{
+      width: 400px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: #fff;
+}
+.icon:hover i{
+      color: #fff;
+}
 
-/*Video Section*/
 .card-title{
    color: #fff;
    margin-left: 45%;
@@ -164,12 +173,23 @@ letter-spacing: normal;
    margin-left: 40%;
    margin-top: 2%;
 }
+/*End Social media Icons*/
+
 /*Video Section*/
 
 .video-header{
    background-color: #453653;
    height: 300px;
 }
+
+.container.video-list video{
+   width: 100%;
+   object-fit: cover;
+   height: 105px;
+   padding: 10px;
+   cursor: pointer;
+      }
+   
 
 /*____mission card container____*/
 
@@ -258,9 +278,134 @@ section{
    align-items: center;
 }
 
-/*Album Page*/
+/*Album Gallery Section*/
+.Font{
+   margin-left: 43%;
+   color: #fff;
+   }
 
-/*Album Gallery*/
+.section header{
+   margin-top: 80%;
+   color: #C1E3ED;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
+   text-transform: capitalize;
+   letter-spacing: 10rem;
+   margin-bottom: px;
+}
+
+.underline{
+   border: 1px solid#fff;
+   width: 10rem;
+   margin: 0 auto;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.album-gallery{
+height: 200%;
+max-width: 100%;
+display: grid;
+position: absolute;
+grid-template-columns: 320px 320px 320px;
+align-content: space-evenly;
+gap: 1rem;
+margin-left: 12.5%;
+padding:10px;
+}
+
+.album-gallery .gallery-item{
+   position: relative;
+   float: left;
+   overflow: hidden;
+   background-color: #fff;
+   min-width: 160px;
+   max-width: 290px;
+   min-height: 180px;
+   width: 48%;
+   margin:  0px 1%;
+   border-radius: 1.5rem;
+   cursor: pointer;
+}
+
+.album-gallery .gallery-item img{
+   width: 105%;
+   height:200px;
+   display: block;
+   position: relative;
+   opacity: 0.7;
+   transition: opacity 0.20s, transform 0.35s;
+   transform: translate3d(-15px, 0px, 0px);
+   backface-visibility: hidden;
+}
+
+.album-gallery .gallery-item:hover img{
+   opacity: .5;
+   transform: translate3d(0px, 0px, 0px);
+}
+
+/*album gallery caption*/
+.album-item-caption {
+   color: #453653;
+   padding: 1rem;
+   text-transform:capitalize;
+   font-size: 1.00em;
+   text-align: left;
+   position: absolute;
+   top:0;
+   left:0;
+}
+
+.album-gallery .gallery-item h2{
+font-weight: 300;
+overflow: hidden;
+padding: 0.1rem 0;
+}
+
+.album-gallery .gallery-item h2,
+.album-gallery .gallery-item p{
+   position: relative;
+   margin: 0;
+   z-index: 10;
+}
+
+.album-gallery .gallery-item h2::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 15%;
+height: 1px;
+background: #fff;
+transition: transform 0.3s;
+transform: translate3d(-100px, 0px, 0px);
+}
+
+.album-gallery .gallery-item:hover h2::after{
+transform: translate3d(0px, 0px, 0px);
+}
+
+/*album gallery paragraph*/
+.album-gallery .gallery-item p{
+letter-spacing: 1px;
+font-size: 50%;
+padding: 1em 0;
+opacity: 0;
+transition: opacity 0.35, transform 0.35s;
+transform: translate3d(20%, 0px, 0px);
+color: #453653;
+font-weight: 400;
+}
+
+.album-gallery .gallery-item:hover p{
+opacity: 1;
+transform: translate3d(0px, 0px, 0px);
+   }
+
+/*End Album Gallery section*/
+
+/*Gossip Lane section*/
 .section header{
    margin-top: 80%;
    color: #C1E3ED;
@@ -278,6 +423,18 @@ section{
    margin: 0 auto;
    align-items: center;
    margin-bottom: 30px;
+}
+
+.Font {
+   margin-left: 43%;
+   color: #fff;
+   margin-top: 40%;
+}
+
+.main-timeline {
+   margin-left: 13%;
+   margin-right: 13%;
+   position: relative;
 }
 
 .video-gallery{
@@ -376,136 +533,7 @@ opacity: 1;
 transform: translate3d(0px, 0px, 0px);
    }
 
-/*Album gallery*/
-
-/*Gossip Lane Section*/
-.Font{
-   margin-left: 43%;
-   color: #fff;
-   }
-
-.section header{
-   margin-top: 80%;
-   color: #C1E3ED;
-   text-align: center;
-   font-size: 40px;
-   font-weight: 700;
-   text-transform: capitalize;
-   letter-spacing: 10rem;
-   margin-bottom: px;
-}
-
-.underline{
-   border: 1px solid#fff;
-   width: 10rem;
-   margin: 0 auto;
-   align-items: center;
-   margin-bottom: 40px;
-}
-
-.album-gallery{
-height: 100%;
-max-width: 100%;
-display: grid;
-position: absolute;
-grid-template-columns: 320px 320px 320px;
-align-content: space-evenly;
-gap: 3rem;
-margin-left: 12.5%;
-padding:10px;
-}
-
-.album-gallery .gallery-item{
-   position: relative;
-   float: left;
-   overflow: hidden;
-   background-color: #fff;
-   min-width: 160px;
-   max-width: 290px;
-   min-height: 180px;
-   width: 48%;
-   margin:  0px 1%;
-   border-radius: 1.5rem;
-   cursor: pointer;
-}
-
-.album-gallery .gallery-item img{
-   width: 105%;
-   height:200px;
-   display: block;
-   position: relative;
-   opacity: 0.7;
-   transition: opacity 0.20s, transform 0.35s;
-   transform: translate3d(-15px, 0px, 0px);
-   backface-visibility: hidden;
-}
-
-.album-gallery .gallery-item:hover img{
-   opacity: .5;
-   transform: translate3d(0px, 0px, 0px);
-}
-
-/*album gallery caption*/
-.album-item-caption {
-   color: #453653;
-   padding: 1rem;
-   text-transform:capitalize;
-   font-size: 1.00em;
-   text-align: left;
-   position: absolute;
-   top:0;
-   left:0;
-}
-
-.album-gallery .gallery-item h2{
-font-weight: 300;
-overflow: hidden;
-padding: 0.1rem 0;
-}
-
-.album-gallery .gallery-item h2,
-.album-gallery .gallery-item p{
-   position: relative;
-   margin: 0;
-   z-index: 10;
-}
-
-.album-gallery .gallery-item h2::after{
-content: "";
-position: absolute;
-bottom: 0;
-left: 0;
-width: 15%;
-height: 1px;
-background: #fff;
-transition: transform 0.3s;
-transform: translate3d(-100px, 0px, 0px);
-}
-
-.album-gallery .gallery-item:hover h2::after{
-transform: translate3d(0px, 0px, 0px);
-}
-
-/*album gallery paragraph*/
-.album-gallery .gallery-item p{
-letter-spacing: 1px;
-font-size: 50%;
-padding: 1em 0;
-opacity: 0;
-transition: opacity 0.35, transform 0.35s;
-transform: translate3d(20%, 0px, 0px);
-color: #453653;
-font-weight: 100;
-}
-
-.album-gallery .gallery-item:hover p{
-opacity: 1;
-transform: translate3d(0px, 0px, 0px);
-   }
-
-/*End Gossip Lane section*/
-
-   /*End Circle section*/
+/*End of Gossip lane section*/
 
 /*Start FAQ'S*/
 .faq{
@@ -558,7 +586,7 @@ svg{
       padding-top: 1rem;
       line-height: 1.6;
       font-size: 1.4rem;
-      color: #C79FC8;
+      color: #453653;
    }
    
 /*FAQ's background colour container */
@@ -595,15 +623,6 @@ svg{
       opacity: 1;
       transform: translateY(0px);
    }
-   }
-
-/*Videos section*/
-   .container.video-list video{
-width: 100%;
-object-fit: cover;
-height: 105px;
-padding: 10px;
-cursor: pointer;
    }
 
 /*Button setup in offcanvas add to cart*/
