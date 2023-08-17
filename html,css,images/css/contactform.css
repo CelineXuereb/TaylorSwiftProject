@@ -94,44 +94,8 @@ text-align: center;
     margin-top: 5%;
     background-color: white;
     box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
-
-}
-.left, .right{
-    width: 50%;
-    padding: 30px;
 }
 
-.flex{
-    display:flex;
-    justify-content: space-between;
-}
-
-.flex1 {
-    display: flex;
-}
-
-.main_image{
-    width: auto;
-    height: auto;
-}
-
-.option img{
-    width: 700px;
-    height: 500px;
-    padding: 10px;
-    float: right;
-}
-a { 
-    text-decoration: none;
-}
-
-header {
-position: absolute;
-width: 100%;
-top: 0;
-left: 0;
-z-index: 4 ;
-}
     /*Background container*/
 header .container{
     max-width: 82rem;
@@ -174,7 +138,7 @@ header  ul{
     position: relative;
     z-index: 2;
 }
-
+    /*Subtiltle Header*/
 .contact-heading  h1 {
 font-weight: 600;
 color: var(--text-color);
@@ -264,7 +228,7 @@ grid-column: span 2;
     box-shadow: 0 0 0 0px hsl(var(--main-hue), 92%, 54%, 0.169%);
     transition: 0.3s;
 }
-
+    /*Buttons*/
 .contact-buttons{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -350,50 +314,6 @@ background-color: var(--main-color-hover);
 
 .submit.upload input{
     display: none;
-}
-
-
-.right{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    overflow: hidden;
-    pointer-events: none;
-}
-
-.image-wrapper{
-    position: relative;
-    grid-column: 2;
-    height: 130%;
-    left:60%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.image-wrapper.img{
-    display: flex;
-    position: absolute;
-}
-
-#wave{
-    fill: var(#453653);
-    height: 100%;
-}
-
-.wave-wrap{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 100%;
-    background-color: #453653;
-
-}
-.wave-wrap svg{
-position: absolute;
-    height: calc(100% + 10px);
-    top: 50%;
-    transform: translateY(-50%);
-    left: calc(100%-2px);
 }
 
 /*Button setup in offcanvas add to cart*/
