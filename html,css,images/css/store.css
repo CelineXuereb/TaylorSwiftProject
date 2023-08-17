@@ -77,12 +77,24 @@ body h5{
 }
 
 /*Paragraph*/
-p {
+.card-body p{
     margin: 20px 0 50px 0;
     line-height: 25px;
     font-family: 'Nixie One', cursive;
     font-weight: 700;
 }
+
+/*____paragragh____*/
+footer p{
+    font-family: 'Nixie One', cursive;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+margin-top: 1%;
+    }
+
+
+
 /*Background colour*/
 .card{
     background-color: #4536537a;

@@ -190,6 +190,21 @@ letter-spacing: normal;
    cursor: pointer;
       }
    
+      /*International tourdates*/
+.Tourdates{
+   background-color: #453653;
+   height: 900px;
+   width: auto;
+}
+
+   .Tourdates img{
+      margin-left: 25%;
+   }
+   
+   .Tourdates-title{
+      margin-left: 35%;
+   }
+/*End International tourdates image*/
 
 /*____mission card container____*/
 
@@ -268,9 +283,9 @@ font-weight: 300;
 line-height: 22px;
 text-align: center;
 }
-
+/*Footer*/
 section{
-   min-height: 100vh;
+   min-height: 90vh;
    width: 80%;
    margin: 0 auto;
    display: flex;
@@ -596,22 +611,6 @@ svg{
    }
 
 /*End of FAQ's */
-
-/*International tourdates*/
-.Tourdates{
-   background-color: #453653;
-   height: 900px;
-   width: auto;
-}
-
-   .Tourdates img{
-      margin-left: 25%;
-   }
-   
-   .Tourdates-title{
-      margin-left: 35%;
-   }
-/*End International tourdates image*/
 
 
 @keyframes fade{
