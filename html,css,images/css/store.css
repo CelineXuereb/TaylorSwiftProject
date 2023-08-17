@@ -93,12 +93,18 @@ footer p{
 margin-top: 1%;
     }
 
-
+/*Product cards*/
+.card{
+    width: 18rem;
+    text-align: center;
+}
 
 /*Background colour*/
 .card{
-    background-color: #4536537a;
+    background-color: #4536535e;
     align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .card-body{
@@ -112,11 +118,7 @@ margin-top: 1%;
     --bs-btn-hover-border-color: #453653;
     --bs-btn-border-color: #453653;
 }
-/*Product cards*/
-.card{
-    width: 18rem;
-    text-align: center;
-}
+
 .card.card-body.h5{
     text-align: center;
 }
