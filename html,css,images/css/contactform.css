@@ -132,7 +132,7 @@ top: 0;
 left: 0;
 z-index: 4 ;
 }
-
+    /*Background container*/
 header .container{
     max-width: 82rem;
     background-color: #C7AFC8 ;
@@ -147,20 +147,6 @@ header  ul{
     display: flex;
     list-style: none;
     align-items: center;
-}
-
-.logo {
-display: flex;
-align-items: center;
-margin-right: 3rem;
-}
-
-.logo .images{
-    display: grid;
-}
-
-.logo img{
-    height: 35px;
 }
 
 .contact {
@@ -286,20 +272,28 @@ grid-column: span 2;
     margin-top: 1rem;
     width: 100%;
     grid-column: span 2;
+    
 }
 
 .btn{
     display: inline-block;
     padding: 1.1rem 2rem;
-    background-color:var(--main-color);
-    color: #453653;
+
     border-radius: 40px;
     border: none;
     font-family: 'Nixie One', cursive;
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3s;
+
+    --bs-btn-active-border-color: #453653;
+    --bs-btn-active-bg: #C79FC8;
+    --bs-btn-bg: #453653;
+    --bs-btn-hover-bg: #C79FC8;
+    --bs-btn-hover-border-color: #453653;
+    --bs-btn-border-color: #453653;
 }
+
 
 .btn:hover{
 background-color: var(--main-color-hover);
@@ -359,8 +353,6 @@ background-color: var(--main-color-hover);
 }
 
 
-
-
 .right{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -402,4 +394,14 @@ position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: calc(100%-2px);
+}
+
+/*Button setup in offcanvas add to cart*/
+.btn.btn-primary{
+    --bs-btn-active-border-color: #453653;
+    --bs-btn-active-bg: #C79FC8;
+    --bs-btn-bg: #453653;
+    --bs-btn-hover-bg: #C79FC8;
+    --bs-btn-hover-border-color: #453653;
+    --bs-btn-border-color: #453653;
 }
