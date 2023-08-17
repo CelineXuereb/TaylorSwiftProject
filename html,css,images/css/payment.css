@@ -105,3 +105,15 @@ p {
 .container form .submit-btn:hover{
   background: #C7AFC8;
 }
+
+/*Button setup in offcanvas add to cart*/
+.btn.btn-primary{
+  --bs-btn-active-border-color: #453653;
+  --bs-btn-active-bg: #C79FC8;
+  --bs-btn-bg: #453653;
+  --bs-btn-hover-bg: #C79FC8;
+  --bs-btn-hover-border-color: #453653;
+  --bs-btn-border-color: #453653;
+width: 100%;
+margin-top: 10px;
+}

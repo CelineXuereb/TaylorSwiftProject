@@ -124,3 +124,11 @@ margin-top: 1%;
 .card.card-body.h5{
     text-align: center;
 }
+
+.card-body.card-title{
+    text-align: center;
+}
+
+.card-body.card-title.p{
+    text-align: center;
+}
