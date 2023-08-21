@@ -10,7 +10,31 @@
     justify-content: center;
     background: rgb(red, green, blue);
 }
+
+a:hover {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 /*Social media Icons*/
+.SocialMediaLinks-title {
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.iconsContainer .icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: -1rem 1rem;
+    margin-bottom: 1rem;
+    place-items: center;
+}
+/*End Social media Icons*/
 .icon{
     width: 100px;
     height: 100px;

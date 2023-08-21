@@ -6,7 +6,6 @@
    font-family: 'Abril Fatface', cursive;   
    transition: .2s linear;
 }
-
 /*Backgound color and Typeface*/
 body{
    font-family: 'Abril Fatface', cursive;
@@ -19,7 +18,7 @@ nav{
    width: 100%;
    align-items: center;
    flex-wrap: wrap;
-   padding: 5px 0;
+   padding: 2px 0;
    background-color: #453653;
 }
 .text-box{
@@ -74,6 +73,11 @@ transition: width 0.3s ;
 
 nav ul li a:hover:after{
    width: 50%;
+}
+
+dl, ol, ul {
+   margin-top: 0;
+   margin-bottom: 0rem;
 }
 
 /*Logo*/
@@ -135,6 +139,39 @@ letter-spacing: normal;
 
 /*End Carousel*/
 
+/*Container Strip*/
+.container-strip{
+   position: relative;
+   width: 100%;
+   max-width: auto;
+}
+
+.container-strip img {
+
+   height: fit-content;
+   object-fit: cover;
+   height: 500px;
+}
+
+.container-strip .btn {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #453653;
+   color: white;
+   font-size: 16px;
+   padding: 12px 24px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   text-align: center;
+}
+.container-strip .btn:hover {
+   background-color: #C7AFC8;
+}
+/*End Container Strip*/
 
 /*Social media Icons*/
 .iconsContainer .icons{
@@ -168,27 +205,29 @@ letter-spacing: normal;
    margin-left: 45%;
 }
 
-.SocialMediaLinks-title{
+/*Video Section*/
+.card-title {
    color: #fff;
-   margin-left: 40%;
-   margin-top: 2%;
+   margin: 0 auto;
+   grid-row: 1;
+   grid-column: 1/-1;
 }
-/*End Social media Icons*/
 
 /*Video Section*/
 
-.video-header{
+.video-header {
    background-color: #453653;
-   height: 300px;
+   height: 350px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 2fr;
+   place-items: center;
 }
 
-.container.video-list video{
-   width: 100%;
-   object-fit: cover;
-   height: 105px;
-   padding: 10px;
-   cursor: pointer;
-      }
+.video-header video {
+   margin: auto;
+   margin-bottom: 10%;
+}
    
       /*International tourdates*/
 .Tourdates{
@@ -198,7 +237,7 @@ letter-spacing: normal;
 }
 
    .Tourdates img{
-      margin-left: 25%;
+      margin-left: 28%;
    }
    
    .Tourdates-title{

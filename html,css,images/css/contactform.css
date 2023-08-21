@@ -63,6 +63,12 @@
         width: 25px;
         cursor: pointer;
     }
+
+    dl, ol, ul {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+/*End navigation bar*/
     /*____body____*/
     body{
         font-family: 'Abril Fatface', cursive;
