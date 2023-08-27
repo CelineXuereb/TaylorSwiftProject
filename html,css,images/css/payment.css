@@ -7,6 +7,7 @@
   outline: none; border:none;
   text-transform: capitalize;
   transition: all .2s linear;
+  color: #453653;
 }
 /*Paragraph*/
 p {
@@ -19,9 +20,15 @@ p {
   align-items: center;
   padding:25px;
   min-height: 100vh;
-  background: linear-gradient(90deg, #C7AFC8 60%, #453653 40.1%);
+  background: linear-gradient(90deg, #C7AFC8 50%, #453653 40.1%);
 }
-/*Conatiner*/
+/*Purple Container*/
+@media (min-width: 992px)
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 990px;
+}
+
+/*Container*/
 .container form{
   padding:20px;
   width:700px;
@@ -116,4 +123,24 @@ p {
   --bs-btn-border-color: #453653;
 width: 100%;
 margin-top: 10px;
+}
+/*Keep me updated checkbox*/
+.form-check-input:checked[type=checkbox] {
+  --bs-form-check-bg-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e);
+}
+
+.form-check-input:checked {
+  background-color: #453653;
+  border-color: #453653;
+}
+.form-check-input[type=checkbox] {
+  border-radius: 0.25em;
+}
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em;
+}
+
+.root{
+  --bs-primary-bg-subtle: #C79FC8;
 }

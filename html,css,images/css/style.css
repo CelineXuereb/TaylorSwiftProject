@@ -102,7 +102,6 @@ cursor: pointer;
 }
 
 .carousel-imgs{
-   height: fit-content;
    object-fit: cover;
    filter: brightness(0.7);
 }
@@ -200,20 +199,14 @@ letter-spacing: normal;
       color: #fff;
 }
 
-.card-title{
-   color: #fff;
-   margin-left: 45%;
-}
-
 /*Video Section*/
+
 .card-title {
    color: #fff;
    margin: 0 auto;
    grid-row: 1;
    grid-column: 1/-1;
 }
-
-/*Video Section*/
 
 .video-header {
    background-color: #453653;
@@ -228,7 +221,8 @@ letter-spacing: normal;
    margin: auto;
    margin-bottom: 10%;
 }
-   
+/*End Video Section*/ 
+
       /*International tourdates*/
 .Tourdates{
    background-color: #453653;
@@ -589,6 +583,7 @@ transform: translate3d(0px, 0px, 0px);
 /*End of Gossip lane section*/
 
 /*Start FAQ'S*/
+/*FAQ'S line*/
 .faq{
    max-width: 700px;
    margin-top: 2rem;
@@ -601,7 +596,7 @@ transform: translate3d(0px, 0px, 0px);
    max-height: 300px;
    animation: fade 1s ease-in-out;
 }
-
+/*Arrow icon toggle button*/
 .faq.active svg{
    transform: rotate(180deg);
 }
@@ -609,7 +604,7 @@ transform: translate3d(0px, 0px, 0px);
 svg{
    transition: transform 0.5s ease-in;
 }
-
+/*FAQ's header 2 title */
 .title{
    font-size: 3rem;
    margin: 2rem 0rem;
@@ -622,7 +617,7 @@ svg{
    align-items: center;
    }
    
-/*FAQ's Subheaders title */
+/*FAQ's answer paragraph title */
    .question h3{
       font-size: 1.8rem;
       color: #453653;
@@ -634,15 +629,16 @@ svg{
       transition: max-height 1.4s ease;
    }
    
-/*FAQ's Answers paragraph */
+/*FAQ's answers paragraph*/
    .answer p{
       padding-top: 1rem;
       line-height: 1.6;
       font-size: 1.4rem;
       color: #453653;
+      text-align: left;
    }
    
-/*FAQ's background colour container */
+/*FAQ's background colour container*/
    .card-header-faq{
       background-color: #C1E3ED;
       height: 600px;

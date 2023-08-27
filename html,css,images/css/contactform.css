@@ -5,6 +5,7 @@
         box-sizing: border-box;
         font-family: 'Abril Fatface', cursive;   
         transition: .2s linear;
+        color: #453653;
     }
     /*Navigation Bar*/
     nav{
@@ -147,15 +148,15 @@ header  ul{
     /*Subtiltle Header*/
 .contact-heading  h1 {
 font-weight: 600;
-color: var(--text-color);
+color: #453653;
 font-size: 3.5rem;
 line-height: 0.9;
 white-space: nowrap;
 margin-bottom: 1.2rem;
 }
 
-.contact-heading h1 span {
-color: var (--main-color);
+.label{
+    color: #453653;
 }
 
 .text {
