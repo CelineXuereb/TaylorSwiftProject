@@ -191,15 +191,22 @@ label,
 .add label,
 .add span{
     background: none;
-    border: 1px solid #ededed;
-    color:#ededed;
+    border: 1px solid #837d7c;
+    color: #837d7c;
     text-align:25px;
     line-height: 25px;
-    text-align: center
+    text-align: center;
 }
 
 .add label{
     padding: 10px 30px 0 20px;
     border-radius: 50px;
     line-height: 0;
+}
+
+.plus{
+    font-weight: 1000;
+}
+.minus{
+    font-weight: 1000;
 }

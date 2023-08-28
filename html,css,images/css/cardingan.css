@@ -202,3 +202,10 @@ label,
     border-radius: 50px;
     line-height: 0;
 }
+
+.plus{
+    font-weight: 1000;
+}
+.minus{
+    font-weight: 1000;
+}

@@ -206,3 +206,10 @@ cursor: pointer;
 .span{
     cursor: pointer;
 }
+
+.plus{
+    font-weight: 1000;
+}
+.minus{
+    font-weight: 1000;
+}
