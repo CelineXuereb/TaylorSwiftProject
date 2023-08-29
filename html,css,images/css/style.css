@@ -142,12 +142,9 @@ letter-spacing: normal;
 .container-strip{
    position: relative;
    width: 100%;
-   max-width: auto;
 }
 
 .container-strip img {
-
-   height: fit-content;
    object-fit: cover;
    height: 500px;
 }
@@ -157,7 +154,6 @@ letter-spacing: normal;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
    background-color: #453653;
    color: white;
    font-size: 16px;
@@ -176,7 +172,6 @@ letter-spacing: normal;
 .iconsContainer .icons{
    display: grid;
    grid-template-columns: repeat(5,1fr);
-   grid-gap: -1rem 1rem;
    margin-bottom: 2%;
 }
 
@@ -439,7 +434,6 @@ letter-spacing: 1px;
 font-size: 50%;
 padding: 1em 0;
 opacity: 0;
-transition: opacity 0.35, transform 0.35s;
 transform: translate3d(20%, 0px, 0px);
 color: #453653;
 font-weight: 400;
@@ -571,7 +565,6 @@ letter-spacing: 1px;
 font-size: 68%;
 padding: 1em 0;
 opacity: 0;
-transition: opacity 0.35, transform 0.35s;
 transform: translate3d(20%, 0px, 0px);
 }
 

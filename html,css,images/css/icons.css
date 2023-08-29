@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(red, green, blue);
 }
 
 a:hover {
@@ -30,7 +29,7 @@ a {
 .iconsContainer .icons {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: -1rem 1rem;
+    grid-gap: 1rem;
     margin-bottom: 1rem;
     place-items: center;
 }

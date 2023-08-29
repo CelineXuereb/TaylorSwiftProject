@@ -164,12 +164,6 @@ font-weight: 600;
 cursor: pointer;
 }
 
-.wrapper span.num{
-
-    border-radius: 2px solid rgba(0,0,0,0.2);
-    pointer-events: none;
-}
-
 .span{
     cursor: pointer;
 }
@@ -193,7 +187,6 @@ label,
     background: none;
     border: 1px solid #837d7c;
     color: #837d7c;
-    text-align:25px;
     line-height: 25px;
     text-align: center;
 }

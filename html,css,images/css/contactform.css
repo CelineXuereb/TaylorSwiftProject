@@ -75,11 +75,9 @@
         font-family: 'Abril Fatface', cursive;
         --main-hue:208;
         --main-color: hsl(var(--main-hue), 77%, 48%)
-        --text-color:#000;
         --nav-color:hsl(var(--main-hue),17%,79%);
-        --bg-color:#fff;
-        --light-text-color:#9ca7b6;
-    }
+        color:#fff;
+        --light-text-color:#9ca7b6;}
 
 /*____paragragh____*/
 p{
@@ -108,7 +106,6 @@ header .container{
     max-width: 82rem;
     background-color: #C7AFC8 ;
     margin: 0 auto;
-    padding: 0 1 rem;
     height: 65px;
     display: flex;
     align-items: flex-end;
