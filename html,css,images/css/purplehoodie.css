@@ -181,7 +181,7 @@ label,
 .color span {
     width: 25px;
     height: 25px;
-    color:#C7AFC8;
+    background-color:#C7AFC8;
     border-radius:50%;
     margin: 30px 10px 30px 0px;
 }
